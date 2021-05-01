@@ -4,7 +4,7 @@ import {Button } from "react-bootstrap";
 
 function subnav() {
     return (
-      <div class="mt-2 text-left ml-2">
+      <div className="mt-2 text-left ml-2">
         <>
           <Button variant="warning">New</Button>{" "}
           <Button variant="secondary">

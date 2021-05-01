@@ -5,7 +5,7 @@ function Loadmore() {
     return (
       <div>
         <>
-          <div className="mb-2 mt-2">
+          <div className="mb-2 mt-2 btn-load">
             <Button variant="warning" size="lg">
               Load More
             </Button>{" "}

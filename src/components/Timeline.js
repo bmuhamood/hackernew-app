@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
 import { Card } from "react-bootstrap";
 import AccessTimeIcon from "@material-ui/icons/AccessTime";
 
 function Timeline() {
     return (
-      <div class="mt-3 ml-2 mr-2 text-left">
+      <div className="mt-3 ml-2 mr-2 text-left">
         <Card style={{ width: "100%" }}>
           <Card.Body>
             <Card.Title>Card Title</Card.Title>
