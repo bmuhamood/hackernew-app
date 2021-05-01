@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Subnav from './components/Subnav';
 import Timeline from './components/Timeline';
+import Loadmore from './components/Loadmore';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Timeline />
       <Timeline />
       <Timeline />
+      <Loadmore />
     </div>
   );
 }
