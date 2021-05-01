@@ -1,17 +1,18 @@
 import React from "react";
-import * as ReactBootStrap from "react-bootstrap";
 import { Navbar } from "react-bootstrap";
 
 function Header() {
   return (
-    <>
-      <Navbar bg="light" class="text-center">
-        <Navbar.Brand href="#home">
-          <span class="text-warning">HACKER</span>
-          <span class="text-secondary">NEWS</span>
-        </Navbar.Brand>
-      </Navbar>
-    </>
+    <div className="text-center">
+      <>
+        <Navbar bg="light">
+          <Navbar.Brand href="#home">
+            <span className="text-warning">HACKER</span>
+            <span className="text-secondary">NEWS</span>
+          </Navbar.Brand>
+        </Navbar>
+      </>
+    </div>
   );
 }
 
