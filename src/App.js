@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Subnav from './components/Subnav';
 import Timeline from './components/Timeline';
 import Loadmore from './components/Loadmore';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Timeline />
       <Timeline />
       <Loadmore />
+      <Footer />
     </div>
   );
 }
