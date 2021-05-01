@@ -12,8 +12,6 @@ function App() {
       <Header />
       <Subnav />
       <Timeline />
-      <Timeline />
-      <Timeline />
       <Loadmore />
       <Footer />
     </div>
