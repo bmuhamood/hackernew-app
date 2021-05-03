@@ -1,14 +1,7 @@
-import React from 'react';
-import { Card } from 'react-bootstrap';
+import React from "react";
 
 function Footer() {
-    return (
-      <div className="mt-3 footer-section">
-        <Card className="bg-warning">
-          <Card.Header>HACKER NEWS.</Card.Header>
-        </Card>
-      </div>
-    );
+  return <div className="footer">Hi</div>;
 }
 
-export default Footer
+export default Footer;

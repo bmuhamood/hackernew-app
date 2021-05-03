@@ -1,19 +1,23 @@
 import React from "react";
-import { Navbar } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
-function Header() {
+const Header = () => {
   return (
-    <div className="text-center">
-      <>
-        <Navbar bg="light">
-          <Navbar.Brand href="#home">
-            <span className="text-warning">HACKER</span>
-            <span className="text-secondary">NEWS</span>
-          </Navbar.Brand>
-        </Navbar>
-      </>
-    </div>
+    <React.Fragment>
+      <h1><span className="hacker">Hacker</span><span className="news">News</span></h1>
+      <div className="nav-link">
+        <NavLink to="/top" activeClassName="active">
+          Top Stories
+        </NavLink>
+        <NavLink to="/new" activeClassName="active">
+          Latest Stories
+        </NavLink>
+        <NavLink to="/best" activeClassName="active">
+          Best Stories
+        </NavLink>
+      </div>
+    </React.Fragment>
   );
-}
+};
 
 export default Header;
